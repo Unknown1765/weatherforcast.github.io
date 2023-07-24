@@ -1,0 +1,78 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    background-image: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-color: #e0e3e1;
+   }
+   /* Header */
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+   }
+   header h1 {
+    margin: 0;
+   }
+   nav ul {
+    list-style: none;
+    display: flex;
+   }
+   nav li {
+    margin-right: 1rem;
+   }
+   nav a {
+    color: #fff;
+    text-decoration: none;
+   }
+   nav a:hover {
+    text-decoration: underline;
+   }
+   /* Main */
+   main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+   }
+   .contact-info {
+    margin-bottom: 2rem;
+   }.contact-info p {
+    margin-bottom: 1rem;
+   }
+   .contact-info strong {
+    font-weight: bold;
+   }
+   form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+   }
+   form input,
+   form textarea {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+   }
+   form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+   }
+   button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    }

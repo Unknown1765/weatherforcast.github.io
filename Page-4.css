@@ -1,0 +1,121 @@
+.u-section-1 {
+    background-image: none;
+    min-height: 987px;
+   }
+   .u-section-1 .u-image-1 {
+    width: 698px;
+    height: 698px;
+    background-image: url("sky.png");
+    background-position: 50% 50%;
+    margin: 216px auto 0 0;
+   }
+   .u-section-1 .u-group-1 {
+    width: 527px;
+    min-height: 688px;
+    height: auto;
+    margin: -776px calc(((100% - 1140px) / 2)) 60px auto;
+   }
+   .u-section-1 .u-container-layout-1 {
+    padding: 30px;
+   }
+   .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    margin: 0;
+   }
+   .u-section-1 .u-text-2 {
+    margin: 24px 41px 0 0;
+   }
+   .u-section-1 .u-text-3 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    margin: 22px 322px 0 0;
+   }
+   .u-section-1 .u-btn-1 {
+    border-style: solid;
+    padding: 0;
+   }
+   .u-section-1 .u-btn-2 {
+    letter-spacing: 3px;
+    border-style: solid;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px auto 0 0;
+    padding: 15px 45px 16px 43px;
+   }
+   @media (max-width: 1199px) {
+    .u-section-1 .u-image-1 {
+    width: 543px;
+    height: 543px;
+    margin-top: 174px;
+    }
+    .u-section-1 .u-group-1 {
+    width: 377px;
+    margin-right: calc(((100% - 1140px) / 2) + 100px);
+    height: auto;
+    }
+    .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    }
+    .u-section-1 .u-text-3 {
+    margin-right: 321px;
+    }}
+   @media (max-width: 991px) {
+    .u-section-1 .u-image-1 {
+    width: 628px;
+    height: 628px;
+    }
+    .u-section-1 .u-group-1 {
+    width: 496px;
+    margin-top: -282px;
+    margin-right: calc(((100% - 1140px) / 2) + 123px);
+    }}
+   @media (max-width: 767px) {
+    .u-section-1 {
+    min-height: 829px;
+    }
+    .u-section-1 .u-image-1 {
+    width: 454px;
+    height: 454px;
+    margin-top: 127px;
+    margin-left: calc(((100% - 1140px) / 2) + 300px);
+    }
+    .u-section-1 .u-group-1 {
+    width: calc(((100% - 1140px) / 2) + 717px);
+    margin-top: -182px;
+    margin-right: 0;
+    }
+    .u-section-1 .u-container-layout-1 {
+    padding-right: 10px;
+    padding-left: 0;
+    }
+    .u-section-1 .u-text-2 {
+    margin-right: 42px;
+    }
+    .u-section-1 .u-text-3 {
+    margin-right: 301px;
+    }}
+   @media (max-width: 575px) {
+    .u-section-1 {
+    min-height: 629px;
+    }
+    .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+    margin-top: 82px;
+    margin-left: calc(((100% - 1140px) / 2) + 400px);
+    }
+    .u-section-1 .u-group-1 {
+    width: 340px;
+    margin-top: -160px;
+    margin-right: calc(((100% - 1140px) / 2) + 387px);
+    }
+    .u-section-1 .u-text-1 {
+    font-size: 2.125rem;
+    width: auto;
+    }
+    .u-section-1 .u-text-2 {
+    margin-right: 0;
+    width: auto;
+    }
+    .u-section-1 .u-text-3 {
+    margin-right: 174px;
+    }}

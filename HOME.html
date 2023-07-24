@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>LiveWeather.com</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-
+alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+ integrity="sha384-
+GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+crossorigin="anonymous">
+</head>
+<body style="background-image: url('cloud1.webp'); background-repeat: no-repeat; 
+background-size: cover;" >
+ <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+ 
+ <div class="container-fluid">
+ <a class="navbar-brand" href="HOME.html">LiveWeather</a>
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+ data-bs-target="#navbarSupportedContent" aria- controls="navbarSupportedContent" aria-expanded="false"
+ aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+ <li class="nav-item">
+ <a class="nav-link active" aria-current="page" href="#">Home</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="Page-4.html">About us</a>
+ </li>
+ <li class="nav-item dropdown">
+ <a class="nav-link dropdown-toggle" href="#" role="button" data-bs￾toggle="dropdown"
+ aria-expanded="false"><span>How to use?</span>
+ </a>
+ <ul class="dropdown-menu">
+ <li><a class="dropdown-item" href="contactus.html">Contact us</a></li>
+ <li><a class="dropdown-item" href="contactus.html">Help!</a></li>
+ <li>
+ <hr class="dropdown-divider">
+ </li>
+ <li><a class="dropdown-item" href="#">How to use?</a></li>
+ </ul>
+ </li>
+ </ul>
+ <form class="d-flex" role="search">
+ <input id="city" class="form-control me-2" type="search" placeholder="Search" 
+aria-label="Search">
+ <button class="btn btn-outline-success" type="submit" 
+id="submit">Search</button>
+ </form>
+ </div>
+ </div>
+ </nav>
+ <div class="container">
+ <h1 class="my--4 text-center">Weather of <span id="cityname"></span></h1>
+ <main>
+ <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+ <div class="col">
+ <div class="card mb-4 rounded-3 shadow-sm border-primary">
+ <div class="card-header py-3 text-bg-primary border-primary">
+ <h4 class="my-0 fw-normal">Temperatures</h4>
+ </div>
+ <div class="card-body">
+ <h1 class="card-title pricing-card-title"><span id="temp2"></span><small
+ class="text-muted fw-light">
+ <sup><span>&#8451;</span></sup></small>
+ </h1>
+ <ul class="list-unstyled mt-3 mb-4">
+ <li>Temperature is <span id="temp"></span></li>
+ <li>Min Temperature is <span id="min_temp"></span></li>
+ <li>Max Temperature is <span id="max_temp"></span></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ <div class="col">
+ <div class="card mb-4 rounded-3 shadow-sm border-primary">
+ <div class="card-header py-3 text-bg-primary border-primary">
+ <h4 class="my-0 fw-normal">Humadity info</h4>
+ </div>
+ <div class="card-body">
+ <h1 class="card-title pricing-card-title"><span 
+id="humidity2"></span><small
+ class="text-muted fw-light"> %</small>
+ </h1>
+ <ul class="list-unstyled mt-3 mb-4">
+ <li>CLOUD PCT is <span id="cloud_pct"></span></li>
+ <li>Feels Like is <span id="feels_like"></span></li>
+ <li>Humadity is <span id="humidity"></span></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ <div class="col">
+ <div class="card mb-4 rounded-3 shadow-sm border-primary">
+ <div class="card-header py-3 text-bg-primary border-primary">
+ <h4 class="my-0 fw-normal">Wind info</h4>
+ </div>
+ <div class="card-body">
+ <h1 class="card-title pricing-card-title"><span 
+id="wind_speed2"></span><small
+ class="text-muted fw-light"> km/hr</small>
+ </h1>
+ <ul class="list-unstyled mt-3 mb-4">
+ <li>Wind speed is <span id="wind_speed"></span></li>
+ <li>Wind speed is <span id="wind_degrees"></span></li>
+ <li>Sunrise time is <span id="sunrise"></span></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ <h2 class="display-6 text-center mb-4">Weather of other common places</h2>
+ <div class="table-responsive">
+ <table class="table text-center">
+ <thead>
+ <tr>
+ <th style="width: 32%;"> </th>
+ <th style="width: 15%;"> CLOUD_PCT</th>
+ <th style="width: 15%;"> FEELS_LIKE</th>
+ <th style="width: 15%;"> HUMIDITY</th>
+ <th style="width: 15%;"> TEMP</th>
+ <th style="width: 20%;"> WIND_DEGREES</th>
+ <th style="width: 15%;"> WIND_SPEED</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <th scope="row" class="text-start">Uttar pardesh</th>
+ <td><span id="Dcloud_pct"></span></td>
+ <td><span id="Dfeels_like"></span></td>
+ <td><span id="Dhumidity"></span><small class="text-muted fw-light"> 
+%</small></td>
+ <td><span id="Dtemp"></span><small class="text-muted fw-light">
+ <sup><span>&#8451;</span></sup></small></td>
+ <td><span id="Dwind_degrees"></span></td>
+ <td><span id="Dwind_speed"></span><small class="text-muted fw￾light"> km/hr</small></td>
+ </tr>
+ <tr>
+ <th scope="row" class="text-start">Chandigarh</th>
+ <td><span id="CHcloud_pct"></span></td>
+ <td><span id="CHfeels_like"></span></td>
+ <td><span id="CHhumidity"></span><small class="text-muted fw-light"> 
+%</small></td>
+ <td><span id="CHtemp"></span><small class="text-muted fw-light">
+ <sup><span>&#8451;</span></sup></small></td>
+ <td><span id="CHwind_degrees"></span></td>
+ <td><span id="CHwind_speed"></span><small class="text-muted fw-
+light"> km/hr</small></td>
+ </tr>
+ </tbody>
+ <tbody>
+ <tr>
+ <th scope="row" class="text-start">Haryana</th>
+ <td><span id="Hcloud_pct"></span></td>
+ <td><span id="Hfeels_like"></span></td>
+ <td><span id="Hhumidity"></span><small class="text-muted fw-light"> 
+%</small></td>
+ <td><span id="Htemp"></span><small class="text-muted fw-light">
+ <sup><span>&#8451;</span></sup></small></td>
+ <td><span id="Hwind_degrees"></span></td>
+ <td><span id="Hwind_speed"></span><small class="text-muted fw￾light"> km/hr</small></td>
+ </tr>
+ <tr>
+ <th scope="row" class="text-start">Kolkata</th>
+ <td><span id="Kcloud_pct"></span></td>
+ <td><span id="Kfeels_like"></span></td>
+ <td><span id="Khumidity"></span><small class="text-muted fw-light"> 
+%</small></td>
+ <td><span id="Ktemp"></span><small class="text-muted fw-light">
+ <sup><span>&#8451;</span></sup></small></td>
+ <td><span id="Kwind_degrees"></span></td>
+ <td><span id="Kwind_speed"></span><small class="text-muted fw￾light"> km/hr</small></td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </main>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-
+alpha1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-
+w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+ crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+ 
+ 
+ <footer>
+ <div>
+ <p style="text-align: center; margin-top: 5%;">
+ Copyright © All Right Reserved | Designed 
+ </p> 
+ </div>
+ </footer>
+</body>
+</html>
